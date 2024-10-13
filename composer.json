@@ -1,0 +1,67 @@
+{
+    "name": "jobmetric/vibe",
+    "description": "A dynamic CRM platform designed to enhance customer relationships, streamline interactions, and foster a positive engagement experience for businesses.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "jobmetric",
+        "package",
+        "vibe",
+        "customer",
+        "relationship",
+        "management",
+        "engagement",
+        "communication",
+        "analytics",
+        "feedback",
+        "insights",
+        "network",
+        "support"
+    ],
+    "homepage": "https://doc.jobmetric.net/package/vibe",
+    "authors": [
+        {
+            "name": "Majid Mohammadian",
+            "email": "majeedmohammadian@gmail.com",
+            "homepage": "https://www.linkedin.com/in/majidmohammadian/",
+            "role": "Full Stack Developer"
+        }
+    ],
+    "require": {
+        "php": ">=8.0.1",
+        "ext-json": "*",
+        "laravel/framework": ">=9.19",
+        "jobmetric/laravel-package-core": "^1.12"
+    },
+    "autoload": {
+        "files": [
+            "src/helpers.php"
+        ],
+        "psr-4": {
+            "JobMetric\\Vibe\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "JobMetric\\Vibe\\VibeServiceProvider"
+            ],
+            "aliases": {
+                "Vibe": "JobMetric\\Vibe\\Facades\\Vibe"
+            }
+        }
+    },
+    "minimum-stability": "stable",
+    "support": {
+        "issues": "https://github.com/jobmetric/vibe/issues",
+        "forum": "https://twitter.com/jobmetric",
+        "source": "https://github.com/jobmetric/vibe"
+    },
+    "funding": [
+        {
+            "type": "github",
+            "url": "https://github.com/sponsors/majidmohammadian"
+        }
+    ]
+}
