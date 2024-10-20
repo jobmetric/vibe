@@ -12,6 +12,8 @@ return [
     |
     */
 
+    'panel_name' => 'CRM (Vibe)',
+
     'description' => 'A dynamic CRM platform designed to enhance customer relationships, streamline interactions, and foster a positive engagement experience for businesses.',
 
     'sections' => [

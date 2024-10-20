@@ -32,11 +32,11 @@ class VibeServiceProvider extends PackageCoreServiceProvider
     public function afterBootPackage(): void
     {
         Panelio::addPanel('vibe', [
-            'name' => config('vibe.panel_name'),
+            'name' => 'vibe::base.panel_name',
             'namespace' => 'JobMetric\Vibe\Http\Controllers',
             'args' => [
                 'description' => trans('vibe::base.description'),
-                'icon' => 'fas fa-user-shield',
+                'icon' => '<i class="ki-duotone ki-abstract-45 fs-2x"><span class="path1"></span><span class="path2"></span></i>',
             ],
             'permission' => 'vibe',
             'position' => 0,
