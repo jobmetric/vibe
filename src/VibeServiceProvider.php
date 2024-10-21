@@ -35,7 +35,7 @@ class VibeServiceProvider extends PackageCoreServiceProvider
             'name' => 'vibe::base.panel_name',
             'namespace' => 'JobMetric\Vibe\Http\Controllers',
             'args' => [
-                'description' => trans('vibe::base.description'),
+                'description' => 'vibe::base.description',
                 'icon' => '<i class="ki-duotone ki-abstract-45 fs-2x"><span class="path1"></span><span class="path2"></span></i>',
             ],
             'permission' => 'vibe',
@@ -43,9 +43,9 @@ class VibeServiceProvider extends PackageCoreServiceProvider
         ]);
 
         Panelio::addSection('vibe', 'board', [
-            'name' => trans('vibe::base.sections.board.name'),
+            'name' => 'vibe::base.sections.board.name',
             'args' => [
-                'title' => trans('vibe::base.sections.board.title'),
+                'title' => 'vibe::base.sections.board.title',
                 'icon' => '<i class="ki-duotone ki-abstract-27 fs-2x"><span class="path1"></span><span class="path2"></span></i>',
             ],
             'permission' => 'vibe.board',
@@ -53,9 +53,9 @@ class VibeServiceProvider extends PackageCoreServiceProvider
         ]);
 
         Panelio::addSection('vibe', 'client', [
-            'name' => trans('vibe::base.sections.client.name'),
+            'name' => 'vibe::base.sections.client.name',
             'args' => [
-                'title' => trans('vibe::base.sections.client.title'),
+                'title' => 'vibe::base.sections.client.title',
                 'icon' => '<i class="ki-duotone ki-scroll fs-2x"><span class="path1"></span><span class="path2"></span><span class="path3"></span></i>',
             ],
             'permission' => 'vibe.client',
@@ -63,9 +63,9 @@ class VibeServiceProvider extends PackageCoreServiceProvider
         ]);
 
         Panelio::addSection('vibe', 'team', [
-            'name' => trans('vibe::base.sections.team.name'),
+            'name' => 'vibe::base.sections.team.name',
             'args' => [
-                'title' => trans('vibe::base.sections.team.title'),
+                'title' => 'vibe::base.sections.team.title',
                 'icon' => '<i class="ki-duotone ki-profile-user fs-2x"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></i>',
             ],
             'permission' => 'vibe.team',
@@ -73,9 +73,9 @@ class VibeServiceProvider extends PackageCoreServiceProvider
         ]);
 
         Panelio::addSection('vibe', 'system', [
-            'name' => trans('vibe::base.sections.system.name'),
+            'name' => 'vibe::base.sections.system.name',
             'args' => [
-                'title' => trans('vibe::base.sections.system.title'),
+                'title' => 'vibe::base.sections.system.title',
                 'icon' => '<i class="ki-duotone ki-setting-3 fs-2x"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span></i>',
             ],
             'permission' => 'vibe.system',
@@ -83,9 +83,9 @@ class VibeServiceProvider extends PackageCoreServiceProvider
         ]);
 
         Panelio::addSection('vibe', 'report', [
-            'name' => trans('vibe::base.sections.report.name'),
+            'name' => 'vibe::base.sections.report.name',
             'args' => [
-                'title' => trans('vibe::base.sections.report.title'),
+                'title' => 'vibe::base.sections.report.title',
                 'icon' => '<i class="ki-duotone ki-chart-simple fs-2x"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></i>',
             ],
             'permission' => 'vibe.report',
