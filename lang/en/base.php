@@ -39,4 +39,8 @@ return [
         ],
     ],
 
+    'dashboard' => [
+        'title' => 'Customer Relationship Management Dashboard (Vibe)',
+    ]
+
 ];

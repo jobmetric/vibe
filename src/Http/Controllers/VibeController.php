@@ -4,6 +4,7 @@ namespace JobMetric\Vibe\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\View\View;
+use JobMetric\Panelio\Http\Controllers\Controller;
 
 class VibeController extends Controller
 {
@@ -14,8 +15,10 @@ class VibeController extends Controller
      *
      * @return View
      */
-    public function index(Request $request): View
+    public function index(Request $request)
     {
-        return view('vibe::index');
+        DomiTitle(trans('vibe::base.dashboard.title'));
+
+        return view('vibe::dashboard');
     }
 }
