@@ -42,7 +42,7 @@ class VibeServiceProvider extends PackageCoreServiceProvider
                 'icon' => '<i class="ki-duotone ki-abstract-45 fs-2x"><span class="path1"></span><span class="path2"></span></i>',
             ],
             'permission' => 'vibe',
-            'position' => 0,
+            'position' => 30,
         ]);
 
         Panelio::addSection('vibe', 'board', [
