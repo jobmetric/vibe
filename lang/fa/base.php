@@ -41,6 +41,14 @@ return [
 
     'dashboard' => [
         'title' => 'داشبورد مدیریت روابط مشتری (Vibe)',
+        'tiles' => [
+            'sells' => 'فروش',
+            'campaign' => 'کمپین ها',
+            'teams' => 'تیم ها',
+            'new_opportunities' => 'فرصت های جدید',
+            'deals' => 'تعداد معاملات',
+            'daily_deals' => 'معاملات روزانه',
+        ],
     ]
 
 ];

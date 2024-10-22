@@ -41,6 +41,14 @@ return [
 
     'dashboard' => [
         'title' => 'Customer Relationship Management Dashboard (Vibe)',
+        'tiles' => [
+            'sells' => 'Sells',
+            'campaign' => 'Campaigns',
+            'teams' => 'Teams',
+            'new_opportunities' => 'New Opportunities',
+            'deals' => 'Deals',
+            'daily_deals' => 'Daily Deals',
+        ],
     ]
 
 ];
